@@ -55,7 +55,32 @@ import {
   AnimationPlayground,
   MarkdownNotes,
   QuizApp,
-  FileExplorer
+  FileExplorer,
+  DailyGoalsTracker,
+  HabitTracker,
+  ExpenseSplitter,
+  PomodoroTimer,
+  SpeechToText,
+  AIChatbot,
+  CurrencyConverter,
+  TypingSpeedTest,
+  QRCodeGenerator,
+  TodoDragDrop,
+  ImageCropper,
+  VideoDownloader,
+  LanguageTranslator,
+  VirtualBusinessCard,
+  ResumeBuilder,
+  SocialMediaScheduler,
+  MarkdownToHtml,
+  PdfToText,
+  ShoppingCart,
+  BlogCommentSystem,
+  NotesCloudSync,
+  CustomCountdown,
+  WeatherDashboard,
+  CryptoTracker,
+  DataVisualization
 } from './projects';
 
 // Home component (landing page)
@@ -206,6 +231,31 @@ function App() {
       <Route path="/projects/markdown-notes" element={<MarkdownNotes />} />
       <Route path="/projects/quiz-app" element={<QuizApp />} />
       <Route path="/projects/file-explorer" element={<FileExplorer />} />
+      <Route path="/projects/daily-goals-tracker" element={<DailyGoalsTracker />} />
+      <Route path="/projects/habit-tracker" element={<HabitTracker />} />
+      <Route path="/projects/expense-splitter" element={<ExpenseSplitter />} />
+      <Route path="/projects/pomodoro-timer" element={<PomodoroTimer />} />
+      <Route path="/projects/speech-to-text" element={<SpeechToText />} />
+      <Route path="/projects/ai-chatbot" element={<AIChatbot />} />
+      <Route path="/projects/currency-converter" element={<CurrencyConverter />} />
+      <Route path="/projects/typing-speed-test" element={<TypingSpeedTest />} />
+      <Route path="/projects/qr-code-generator" element={<QRCodeGenerator />} />
+      <Route path="/projects/todo-drag-drop" element={<TodoDragDrop />} />
+      <Route path="/projects/image-cropper" element={<ImageCropper />} />
+      <Route path="/projects/video-downloader" element={<VideoDownloader />} />
+      <Route path="/projects/language-translator" element={<LanguageTranslator />} />
+      <Route path="/projects/virtual-business-card" element={<VirtualBusinessCard />} />
+      <Route path="/projects/resume-builder" element={<ResumeBuilder />} />
+      <Route path="/projects/social-media-scheduler" element={<SocialMediaScheduler />} />
+      <Route path="/projects/markdown-to-html" element={<MarkdownToHtml />} />
+      <Route path="/projects/pdf-to-text" element={<PdfToText />} />
+      <Route path="/projects/shopping-cart" element={<ShoppingCart />} />
+      <Route path="/projects/blog-comment-system" element={<BlogCommentSystem />} />
+      <Route path="/projects/notes-cloud-sync" element={<NotesCloudSync />} />
+      <Route path="/projects/custom-countdown" element={<CustomCountdown />} />
+      <Route path="/projects/weather-dashboard" element={<WeatherDashboard />} />
+      <Route path="/projects/crypto-tracker" element={<CryptoTracker />} />
+      <Route path="/projects/data-visualization" element={<DataVisualization />} />
       <Route path="/projects/*" element={<ComingSoon />} />
     </Routes>
   );
